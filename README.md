@@ -26,5 +26,9 @@ Maybe on some notebooks the task will not run under some conditions.
 Open again the "Task Scheduler. Search at the upper list of tasks our created task. Double click it to see more options.
 In the tab "Conditions" uncheck all checkboxes. Then click on okay.
 
-## Delete task
+### Quake Mode doesn't hide at startup
+Right click the download .ps1-file and choose "Edit". PowerShell ISE will open. At the second line you will see the code "-Milliseconds 300". Sometimes it helps to set the number a little bit lower or higher, depending on your machine.
+This script can only hide the Terminal if it's in focus. Maybe some startup application steal it.
+
+### Delete task
 Just again open the "Task Scheduler", search for our created task on the upper list, right click and choose delete.
