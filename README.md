@@ -1,4 +1,5 @@
 # Windows-Terminal-QuakeMode-Autostart
+Launch the Quake mode of the Windows Terminal at Autostart / at Windows startup.
 This is a tutorial on how to start the Quake Mode of Windows Terminal at user logon, without noticing it.
 
 ## Tutorial
